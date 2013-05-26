@@ -11,6 +11,10 @@ import java.util.Map;
 public class MessageSender {
     private final JmsTemplate jmsTemplate;
 
+    /**
+     * Inject a JMS Template
+     * @param jmsTemplate
+     */
     public MessageSender(JmsTemplate jmsTemplate) {
         this.jmsTemplate = jmsTemplate;
     }

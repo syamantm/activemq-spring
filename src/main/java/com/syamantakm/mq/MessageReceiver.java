@@ -9,6 +9,8 @@ import javax.jms.MessageListener;
 import java.util.Collections;
 
 /**
+ * Implement javax.jms.MessageListener interface
+ *
  * @author Syamantak Mukhopadhyay
  */
 public class MessageReceiver implements MessageListener {

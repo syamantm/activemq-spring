@@ -23,7 +23,27 @@ Getting Started
 ### Code walk-through
 
 * Message sender class - com.syamantakm.mq.MessageSender.Java
+
+    /**
+     * Inject a JMS Template
+     * @param jmsTemplate
+     */
+    public MessageSender(JmsTemplate jmsTemplate) {
+        this.jmsTemplate = jmsTemplate;
+    }
+
+
 * Message receiver class - com.syamantakm.mq.MessageReceiver.java
+
+    /**
+     * Implement javax.jms.MessageListener interface
+     *
+     * @author Syamantak Mukhopadhyay
+     */
+    public class MessageReceiver implements MessageListener {
+        ....
+    }
+
 * Spring configuration  - main/resources/applicationContext.xml
 * Queue url and name - test/resources/mq-example.properties
 
