@@ -15,12 +15,12 @@ Dependencies
 Getting Started
 ---------------
 
-## Setting up ActiveMQ
+### Setting up ActiveMQ
 1. Install ActiveMQ on the local machine(localhost). Check the [Getting Started](http://activemq.apache.org/getting-started.html) guide.
 2. Login to the [ActiveMQ admin console](http://localhost:8161/admin) and create a queue named **testSpringJms**.
 
 
-## Code walk-through
+### Code walk-through
 
 * Message sender class - com.syamantakm.mq.MessageSender.Java
 * Message receiver class - com.syamantakm.mq.MessageReceiver.java
