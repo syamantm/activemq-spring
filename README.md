@@ -22,7 +22,7 @@ Getting Started
 
 ### Code walk-through
 
-* Message sender class - com.syamantakm.mq.MessageSender.Java
+Message sender class - com.syamantakm.mq.MessageSender.Java
 
     /**
      * Inject a JMS Template
@@ -33,7 +33,7 @@ Getting Started
     }
 
 
-* Message receiver class - com.syamantakm.mq.MessageReceiver.java
+Message receiver class - com.syamantakm.mq.MessageReceiver.java
 
     /**
      * Implement javax.jms.MessageListener interface
@@ -44,6 +44,6 @@ Getting Started
         ....
     }
 
-* Spring configuration  - main/resources/applicationContext.xml
-* Queue url and name - test/resources/mq-example.properties
+Spring configuration  - main/resources/applicationContext.xml
+Queue url and name - test/resources/mq-example.properties
 
