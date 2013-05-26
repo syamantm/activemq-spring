@@ -43,7 +43,10 @@ Class name - com.syamantakm.mq.MessageReceiver.java,   implements javax.jms.Mess
      * @author Syamantak Mukhopadhyay
      */
     public class MessageReceiver implements MessageListener {
-        ....
+        @Override
+        public void onMessage(Message message) {
+            ....
+        }
     }
 
 ##### Spring configuration

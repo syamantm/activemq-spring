@@ -3,6 +3,9 @@ package com.syamantakm.mq;
 import java.util.Map;
 
 /**
+ * A placeholder to collect output from message receiver.
+ * Used for testing
+ *
  * @author Syamantak Mukhopadhyay
  */
 public class OutputCollector {
