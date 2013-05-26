@@ -52,7 +52,7 @@ Class name - com.syamantakm.mq.MessageReceiver.java,   implements javax.jms.Mess
     }
 
 ##### Spring configuration
-Context Configuration file  - **main/resources/applicationContext.xml**
+Context Configuration file  - [applicationContext.xml](main/resources/applicationContext.xml)
 
 ##### Queue url and name
 test/resources/mq-example.properties
