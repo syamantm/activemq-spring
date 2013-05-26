@@ -38,10 +38,12 @@
 
     <bean id="outputCollector" class="com.syamantakm.mq.OutputCollector"/>
 
+    <!-- Message listener implementation -->
     <bean id="messageReceiver" class="com.syamantakm.mq.MessageReceiver">
         <constructor-arg index="0" ref="outputCollector"/>
     </bean>
 
+    <!-- Message listener container with a message listener bean-->
     <bean class="org.springframework.jms.listener.SimpleMessageListenerContainer">
         <property name="connectionFactory" ref="connectionFactory"/>
         <property name="destinationName" value="${jms.queue.name}"/>
