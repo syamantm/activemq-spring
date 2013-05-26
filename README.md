@@ -25,7 +25,7 @@ Reference manual is [Here](http://static.springsource.org/spring/docs/3.0.x/spri
 ### Code walk-through
 
 ##### Message sender class
-Class name - com.syamantakm.mq.MessageSender.Java, uses Spring JMS Template
+Class name - [MessageSender.java](src/main/com/syamantakm/mq/MessageSender.Java), uses Spring JMS Template
 
     /**
      * Inject a JMS Template
@@ -37,7 +37,7 @@ Class name - com.syamantakm.mq.MessageSender.Java, uses Spring JMS Template
 
 
 ##### Message receiver class
-Class name - com.syamantakm.mq.MessageReceiver.java,   implements javax.jms.MessageListener
+Class name - [MessageReceiver.java]((src/main/com/syamantakm/mq/MessageReceiver.java), implements javax.jms.MessageListener
 
     /**
      * Implement javax.jms.MessageListener interface
